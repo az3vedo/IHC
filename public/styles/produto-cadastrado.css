@@ -1,0 +1,18 @@
+.produto {
+  display: flex;
+  border: 1px solid black;
+  width: 70%;
+  margin: 2em;
+  }
+
+.produto p {
+  position: relative;
+  font: small-caps bold 1.2rem sans-serif;
+  text-align: center;
+}
+
+.desabilitar {
+  position: relative;
+  top: 200px;
+}
+  
