@@ -74,7 +74,7 @@ input {
 }
  
 /*estilo do botão submit */
-button{
+input[type="submit"]{
   width: 100%!important;
   cursor: pointer;  
   background: rgb(180, 180, 180);
@@ -87,7 +87,7 @@ button{
 }
  
 /*estilo do botão submit no hover */
-button:hover{
+input[type="submit"]:hover{
   background: #4ab3c6;
 }
 
