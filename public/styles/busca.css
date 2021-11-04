@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+
+#filtros {
+  padding: .5em;
+  position: fixed;
+  align-self: left;
+  background-color: grey;
+  height: 100%;
+  width: 8em;
+  align-items: center;
+  z-index: -1;
+}
+
+#filtros li {
+  margin: .5em;
+  padding: .2em;
+  text-decoration: none;
+  list-style: none;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: smaller;
+}
+
+#resultados {
+  display: list-item;
+  align-self: right;
+  position: static;
+}
+
+.resultado {
+  display: flex;
+  border: 1px solid black;
+  width: 70%;
+  margin: 2em;
+}
